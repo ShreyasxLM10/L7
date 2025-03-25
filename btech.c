@@ -17,6 +17,8 @@ int main() {
         case 2: {
             printf("You have chosen Btech AIML\n");
             break;
+	case 3:  {
+            printf("You have chosen Btech Electrical\n");
         default:
             printf("Invalid choice! Please enter a number between 1 and 4.\n");
     }
