@@ -9,16 +9,18 @@ int main() {
     printf("3. Btech Electrical\n");
     printf("4. Btech Mechanical\n");
     printf("Enter your choice (1-4): ");
-    scanf("%d", &choice);
     
     switch(choice) {
         case 1:
             printf("You have chosen Btech CSE\n");
             break;
-            return 0;
+        case 2: {
+            printf("You have chosen Btech AIML\n");
+            break;
         default:
             printf("Invalid choice! Please enter a number between 1 and 4.\n");
     }
     
     return 0;
 }
+
